@@ -20,7 +20,7 @@ This python script allows you to extract image data and related metadata from th
     pip install requests pandas
     ```
 
-3. Find the `taxonKey` for your species from GBIF (refer to the instructions above on how to find the taxonKey).
+3. Find the `taxonKey` for your species from GBIF.
 
 4. Run the script with comma-separated `taxonKeys`:
     ```bash
