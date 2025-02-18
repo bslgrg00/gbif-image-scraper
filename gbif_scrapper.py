@@ -7,7 +7,7 @@ api_url = "https://api.gbif.org/v1/occurrence/search"
 
 # Parameters for the API request
 params = {
-    "taxonKey": 3173333,  # Replace with your taxon key
+    "taxonKey": xxxxxxx,  # Replace with your taxon key
     "limit": 20,          # Number of results per request
     "offset": 0,          # Start from the first result
     "mediaType": "StillImage"  # Filter for occurrences with images
