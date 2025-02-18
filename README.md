@@ -20,15 +20,15 @@ This python script allows you to extract image data and related metadata from th
     pip install requests pandas
     ```
 
-3. Find the `taxonKey` for your species from GBIF.
+3. Find the `taxonKey` for your species from GBIF (refer to the instructions above on how to find the taxonKey).
 
-4. Run the script with the `taxonKey` as an argument:
+4. Run the script with comma-separated `taxonKeys`:
     ```bash
-    python gbif_scrapper.py <taxonKey>
+    python gbif_scrapper.py <taxonKey1>,<taxonKey2>,<taxonKey3>
     ```
     Example:
     ```bash
-    python gbif_scrapper.py 3173333  # Replace 3173333 with the actual taxonKey for your species
+    python gbif_scrapper.py 1234567,9876543,9810246  # Replace with the actual taxonKeys for your species
     ```
 
 5. The script will download images and save metadata to `metadata.xlsx`.
