@@ -3,7 +3,7 @@ This python script allows you to extract image data and related metadata from th
 ## Features:
 - Extracts image data from GBIF occurrence records.
 - Downloads images and stores them with filenames based on the catalog number.
-- Saves metadata including year, country, locality, and image URL in an Excel file.
+- Saves metadata in an Excel file.
 
 ## Requirements:
 - `requests`
