@@ -1,6 +1,6 @@
  # <img src="gbif_logo.png" alt="GBIF Logo" width="24"/> GBIF Image Scraper
 
-📸 A python script to extract images and metadata from the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/) for any species.  
+📸 A python script to extract images and metadata from [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/) for any species.  
 
 ---
 
