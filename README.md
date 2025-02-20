@@ -22,7 +22,7 @@ Before running the script, ensure you have the required dependencies installed:
 ## ⚙️ Installation & Usage
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/gbif-image-scraper.git
+    git clone (https://github.com/bslgrg00/gbif-image-scraper.git)
     ```
 
 2. Install required dependencies:
