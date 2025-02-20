@@ -1,8 +1,8 @@
-This python script allows you to extract image data and related metadata from the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/) for any species. It fetches occurrences, filters for images (StillImage), and saves the associated metadata in an Excel file.
+This python script allows you to extract images and related metadata from the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/) for any species. It retrieves occurrence records, filters for images (StillImage), and saves the associated metadata in an Excel file.
 
 ## Features:
-- Extracts image data from GBIF occurrence records.
-- Downloads images and stores them with filenames based on the catalog number.
+- Fetches occurrence records from GBIF based on taxon keys.
+- Downloads images and names them based on the catalog number.
 - Saves metadata in an Excel file.
 
 ## Requirements:
