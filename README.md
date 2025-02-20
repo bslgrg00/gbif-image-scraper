@@ -1,15 +1,25 @@
-This python script allows you to extract images and related metadata from the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/) for any species. It retrieves occurrence records, filters for images (StillImage), and saves the associated metadata in an Excel file.
+# 🌍 GBIF Image Scraper 
+![GBIF Logo](logo.png) GBIF Image Scraper
+📸 A python script to extract images and metadata from the [Global Biodiversity Information Facility (GBIF)](https://www.gbif.org/) for any species.  
 
-## Features:
-- Fetches occurrence records from GBIF based on taxon keys.
-- Downloads images and names them based on the catalog number.
-- Saves metadata in an Excel file.
+---
 
-## Requirements:
+## 📌 Features  
+✅ Fetches **occurrence records** from GBIF using `taxonKey`.  
+✅ Downloads **species images** and names them based on the **catalog number**.  
+✅ Saves **metadata** in an **Excel file (`metadata.xlsx`)**.  
+✅ Easy-to-use **command-line interface**.  
+
+---
+
+## 📦 Requirements  
+Before running the script, ensure you have the required dependencies installed:  
 - `requests`
 - `pandas`
 
-## How to Use:
+---
+
+## ⚙️ Installation & Usage
 1. Clone this repository:
     ```bash
     git clone https://github.com/your-username/gbif-image-scraper.git
@@ -31,4 +41,10 @@ This python script allows you to extract images and related metadata from the [G
     python gbif_scrapper.py 1234567,9876543,9810246  # Replace with the actual taxonKeys for your species
     ```
 
-5. The script will download images and save metadata to `metadata.xlsx`.
+---
+
+## 📂 Output  
+✅ Images are saved in the `images/` directory.  
+✅ Metadata is stored in `metadata.xlsx`.  
+
+
